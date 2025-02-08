@@ -1,0 +1,1030 @@
+error_pattern,solution
+How can I pretty-print JSON in a shell script?,"Is there a (Unix) shell script to format JSON in human-readable form?
+Basically, I want it to transform the following:
+{ ""foo"": ""lorem"", ""bar"": ""ipsum"" }
+
+... ..."
+How do I copy a folder from remote to local using scp? [closed],"How do I copy a folder from remote to local host using scp?
+I use ssh to log in to my server.
+Then, I would like to copy the remote folder foo to local /home/user/Desktop.
+How do I achieve this?"
+"Git is not working after macOS update (""xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools"")","I updated to the latest OS, and/or restarted my computer (this happens on every major update, but this time all I did was restart my computer on 2022-09-13).
+This morning I navigated to my work's ..."
+Is there an equivalent of 'which' on the Windows command line? [closed],"As I sometimes have path problems, where one of my own cmd scripts is hidden (shadowed) by another program (earlier on the path), I would like to be able to find the full path to a program on the ..."
+How to change the output color of echo in Linux,"I am trying to print a text in the terminal using echo command. 
+
+I want to print the text in a red color. How can I do that?"
+How to import an SQL file using the command line in MySQL?,"I have a .sql file with an export from phpMyAdmin. I want to import it into a different server using the command line.
+I have a Windows Server 2008 R2 installation. I placed the .sql file on the C ..."
+How do I parse command line arguments in Bash?,"Say, I have a script that gets called with this line:
+./myscript -vfd ./foo/bar/someFile -o /fizz/someOtherFile
+
+or this one:
+./myscript -v -f -d -o /fizz/someOtherFile ./foo/bar/someFile 
+
+What's the ..."
+How do I set a variable to the output of a command in Bash?,"I have a pretty simple script that is something like the following:
+
+#!/bin/bash
+
+VAR1=""$1""
+MOREF='sudo run command against $VAR1 | grep name | cut -c7-'
+
+echo $MOREF
+When I run this script from the ..."
+Count number of lines in a non binary file (Like a CSV or a TXT) file in terminal [closed],"I have a text file, and I like to know the total number of line withou opening it. My document is like these, and I want to know how many lines actually...
+09:16:39 AM  all    2.00    0.00    4.00    ..."
+How can I get a list of user accounts using the command line in MySQL?,"I'm using the MySQL command-line utility and can navigate through a database. Now I need to see a list of user accounts. How can I do this?
+I'm using MySQL version 5.4.1."
+How do I run two commands in one line in Windows CMD?,"I want to run two commands in a Windows CMD console.
+
+In Linux I would do it like this
+
+touch thisfile ; ls -lstrh
+How is it done on Windows?"
+git undo all uncommitted or unsaved changes,I'm trying to undo all changes since my last commit. I tried git reset --hard and git reset --hard HEAD after viewing this post. I responds with head is now at 18c3773... but when I look at my local ...
+How to reload .bash_profile from the command line,"How can I reload file .bash_profile from the command line?
+I can get the shell to recognize changes to .bash_profile by exiting and logging back in, but I would like to be able to do it on demand."
+How to pass command line arguments to a rake task,"I have a rake task that needs to insert a value into multiple databases.  
+
+I'd like to pass this value into the rake task from the command line, or from another rake task.
+
+How can I do this?"
+List all environment variables from the command line,"Is it possible to list all environment variables from a Windows' command prompt?
+
+Something equivalent to PowerShell's gci env: (or ls env: or dir env:)."
+Including all the jars in a directory within the Java classpath,"Is there a way to include all the jar files within a directory in the classpath?
+
+I'm trying java -classpath lib/*.jar:. my.package.Program and it is not able to find class files that are certainly in ..."
+How to iterate over arguments in a Bash script,"I have a complex command that I'd like to make a shell/bash script of.  I can write it in terms of $1 easily:
+
+foo $1 args -o $1.ext
+I want to be able to pass multiple input names to the script. What'..."
+How can I get the current date and time in the terminal and set a custom command in the terminal for it? [closed],"I have to check the time in a Linux terminal.
+
+What is the command for getting date and time in a Linux terminal?
+
+Is there a way in which we can set a custom function?"
+How do I get the application exit code from a Windows command line?,"I am running a program and want to see what its return code is (since it returns different codes based on different errors).
+
+I know in Bash I can do this by running
+  echo $?
+What do I do when ..."
+Use grep --exclude/--include syntax to not grep through certain files,"I'm looking for the string foo= in text files in a directory tree. It's on a common Linux machine, I have bash shell:
+grep -ircl ""foo="" *
+
+In the directories are also many binary files which ..."
+How to force cp to overwrite without confirmation,"I'm trying to use the cp command and force an overwrite.
+
+I have tried cp -rf /foo/* /bar, but I am still prompted to confirm each overwrite."
+How can I reverse the order of lines in a file?,"I'd like to reverse the order of lines in a text file (or stdin), preserving the contents of each line.
+
+So, i.e., starting with:
+
+foo
+bar
+baz
+I'd like to end up with 
+
+baz
+bar
+foo
+Is there a ..."
+How can I redirect Windows cmd standard output and standard error to a single file?,"I'm trying to redirect all output (standard output and standard error) of a Windows command to a single file:
+C:\
+cd \
+dir 1> a.txt 2> a.txt
+
+Output:
+
+The process cannot access the file because ..."
+How can I read and process (parse) command line arguments?,"In Python, how can we find out the command line arguments that were provided for a script, and process them?
+
+Related background reading: What does ""sys.argv[1]"" mean? (What is sys.argv, and ..."
+Run a PostgreSQL .sql file using command line arguments,I have some .sql files with thousands of INSERT statements in them and need to run these inserts on my PostgreSQL database in order to add them to a table. The files are that large that it is ...
+Run Command Prompt Commands,"Is there any way to run command prompt commands from within a C# application?  If so how would I do the following:
+
+copy /b Image1.jpg + Archive.rar Image2.jpg
+This basically embeds an RAR file ..."
+Linux command to print directory structure in the form of a tree [closed],"Is there any linux command that I can call from a Bash script that will print the directory structure in the form of a tree, e.g.,
+
+folder1
+   a.txt
+   b.txt
+folder2
+   folder3"
+Adding a directory to the PATH environment variable in Windows,"I am trying to add C:\xampp\php to my system PATH environment variable in Windows.
+I have already added it using the Environment Variables dialog box.
+But when I type into my console:
+C:\>path
+
+it ..."
+How do I access command line arguments? [duplicate],"I use python to create my project settings setup, but I need help getting the command line arguments.
+
+I tried this on the terminal:
+
+$python myfile.py var1 var2 var3
+In my Python file, I want to use ..."
+How do I specify a password to 'psql' non-interactively?,"I am trying to automate database creation process with a shell script and one thing I've hit a road block with passing a password to psql.
+Here is a bit of code from the shell script:
+
+psql -U $..."
+How to check Django version,"I have to use Python and Django for our application. So, I have two versions of Python, 2.6 and 2.7. Now I have installed Django. I could run the sample application for testing Django successfully. ..."
+Node.js version on the command line? (not the REPL),"I want to get the version of Node.js on the command line. I'm expecting to run a command like:
+
+node -version
+but that doesn't work. Does anybody know what the command line would be? (i.e. not the ..."
+How can I use grep to find a word inside a folder?,"In Windows, I would have done a search for finding a word inside a folder. Similarly, I want to know if a specific word occurs inside a directory containing many sub-directories and files. My searches ..."
+How can I pretty print XML content from the command line?,"Related: How can I pretty-print JSON in a shell script?
+Is there a (Unix) shell script to format XML content in human-readable form?
+Basically, I want it to transform the following:
+<root><..."
+How do I parse command line arguments in Java?,What is a good way of parsing command line arguments in Java?
+How to prevent auto-closing of console after the execution of batch file,What command can I put at the end of a batch file to prevent auto-closing of the console after the execution of the file?
+"How do I shutdown, restart, or log off Windows via a bat file?","I've been using Remote Desktop Connection to get into a workstation. But in this environment, I cannot use the power options in Start Menu. I need an alternative way to shutdown or restart.
+
+How do I ..."
+What does the number in parentheses shown after Unix command names in manpages mean?,"For example: man(1), find(3), updatedb(2)? 
+
+What do the numbers in parentheses (Brit. ""brackets"") mean?"
+Run R script from command line,"I have a file, called a.r, it has a chmod of 755,
+
+sayHello <- function(){
+   print('hello')
+}
+
+sayHello()
+How can I run this via command-line?"
+"How can I get a recursive full-path listing, one line per file?","How can I spit out a flat list of recursive one-per-line paths?
+For example, I just want a flat listing of files with their full paths:
+/home/dreftymac/.
+/home/dreftymac/foo.txt
+/home/dreftymac/bar...."
+How can I create an empty file at the command line in Windows?,"How can I create an empty file at the DOS/Windows command-line?
+I tried:
+copy nul > file.txt
+
+But it always displays that a file was copied.
+Is there another method in the standard cmd?
+It should ..."
+How to count total lines changed by a specific author in a Git repository?,Is there a command I can invoke which will count the lines changed by a specific author in a Git repository? I know that there must be ways to count the number of commits as Github does this for their ...
+How to run SQL script in MySQL?,"I want to execute a text file containing SQL queries, in MySQL.
+
+I tried to run source /Desktop/test.sql and received the error: 
+  mysql> . \home\sivakumar\Desktop\test.sql ERROR: Failed to open ..."
+How to colorize diff on the command line,"When I have a diff, how can I colorize it so that it looks good?
+I want it for the command line, so please no GUI solutions."
+How can you find and replace text in a file using the Windows command-line environment?,"I am writing a batch file script using Windows command-line environment and want to change each occurrence of some text in a file (ex. ""FOO"") with another (ex. ""BAR""). What is the simplest way to do ..."
+How can I pass an argument to a PowerShell script?,"There's a PowerShell script named itunesForward.ps1 that makes iTunes fast forward 30 seconds:
+$iTunes = New-Object -ComObject iTunes.Application
+
+if ($iTunes.playerstate -eq 1)
+{
+  $iTunes...."
+Debugging with command-line parameters in Visual Studio,I'm developing a C++ command-line application in Visual Studio and need to debug it with command-line arguments. At the moment I just run the generated EXE file with the arguments I need (like this ...
+Run function from the command line,"I have this code:
+def hello():
+    return 'Hi :)'
+
+How would I run this directly from the command line?
+
+See also: What does if __name__ == ""__main__"": do? to explain the standard idiom for ..."
+Restore a postgres backup file using the command line? [closed],"Locally, I use pgadmin3.  On the remote server, however, I have no such luxury.
+I've already created the backup of the database and copied it over, but is there a way to restore a backup from the ..."
+Command prompt won't change directory to another drive,"I'm trying to compile some java (learning java currently), and to do so I need to change command-prompt's directory.
+C:\...\Admin> cd D:\Docs\Java
+C:\...\Admin> cd
+C:\...\Admin
+
+It doesn't ..."
+"How To: Execute command line in C#, get STD OUT results","How do I execute a command-line program from C# and get back the STD OUT results? Specifically, I want to execute DIFF on two files that are programmatically selected and write the results to a text ..."
+Show Procedures/Functions MySQL Command Line,How can I see the list of the stored procedures or stored functions in mysql command line like SHOW TABLES; or SHOW DATABASES; commands.
+"What is the purpose of ""&&"" in a shell command?","As far as I know, using & after the command is for running it in the background.
+Example of & usage: tar -czf file.tar.gz dirname &
+But how about &&? (example)"
+How do I launch the Android emulator from the command line?,"I'm on Mac, working on Android development from the terminal.  I have successfully created the HelloWorld project and now I'm trying to run it from the command line in the Android emulator.  Which ..."
+How to find out line-endings in a text file?,"I'm trying to use something in bash to show me the line endings in a file printed rather than interpreted. The file is a dump from SSIS/SQL Server being read in by a Linux machine for processing.
+Are ..."
+Peak memory usage of a linux/unix process [closed],"Is there a tool that will run a command-line and report the peak RAM usage total?
+
+I'm imagining something analogous to /usr/bin/time"
+Remove the last line from a file in Bash,"I have a file, foo.txt, containing the following lines:
+
+a
+b
+c
+I want a simple command that results in the contents of foo.txt being:
+
+a
+b"
+Is there a command line utility for rendering GitHub flavored Markdown?,"I'm wondering if there is a command line utility for taking a GitHub flavored Markdown file and rendering it to HTML.
+
+I'm using a GitHub wiki to create website content. I've cloned the repository on ..."
+Run cURL commands from Windows console,Is there a way to install cURL in Windows in order to run cURL commands from the command prompt?
+"xcopy file, rename, suppress ""Does xxx specify a file name..."" message","This seems pretty simple and maybe I'm just overlooking the proper flag, but how would I, in one command, copy a file from one directory to another and rename it in the destination directory?  Here's ..."
+How to exit a 'git status' list in a terminal?,How can I exit a terminal listing mode generated by the git status command?
+"Xcode ""Build and Archive"" from command line","Xcode 3.2 provides an awesome new feature under the Build menu, ""Build and Archive"" which generates an .ipa file suitable for Ad Hoc distribution.  You can also open the Organizer, go to ""Archived ..."
+How can I generate a list of files with their absolute path in Linux?,"I am writing a shell script that takes file paths as input.
+
+For this reason, I need to generate recursive file listings with full paths. For example, the file bar has the path:
+
+/home/ken/foo/bar
+..."
+"How to pretty-print / view tabular file (e.g., CSV) from the command line? [closed]",What are some command-line CSV viewers for Linux or OSX?  I'm thinking of something like less but that spaces out the columns in a more readable way.  (I'd be fine with opening it with OpenOffice Calc ...
+How do I get the name of the current executable in C#?,"I want to get the name of the currently running program, that is the executable name of the program. In C/C++ you get it from args[0]."
+POST XML file using cURL command line,"How can I POST an XML file to a local server http://localhost:8080 using cURL from the command line?
+What command should I use?"
+Export MySQL dump from command line,"I am moving away from Linode because I don't have the Linux sysadmin skills necessary; before I complete the transition to a more noob-friendly service, I need to export the contents of a MySQL ..."
+How to run JUnit test cases from the command line,"I would like to run JUnit test cases from the command line.
+How can I do this?"
+How to close git commit editor?,I just executed a command $ git commit and it opens a new editor. But I'm trying to close that new commit editor. How to do this? I'm using Git for Windows.
+What is the purpose of the -m switch?,"Could you explain to me what the difference is between calling
+
+python -m mymod1 mymod2.py args
+and
+
+python mymod1.py mymod2.py args
+It seems in both cases mymod1.py is called and sys.argv is 
+
+['..."
+How to connect to MySQL from the command line,"How can you connect to MySQL from the command line in a Mac? (i.e. show me the code) 
+
+I'm doing a PHP/SQL tutorial, but it starts by assuming you're already in MySQL."
+How to find which version of TensorFlow is installed in my system?,I need to find which version of TensorFlow I have installed. I'm using Ubuntu 16.04 Long Term Support.
+How to checkout a specific Subversion revision from the command line?,"I want to checkout a specific revision of a folder in Subversion using the command line.
+
+I don't see an option for specifying the revision number in TortoiseProc.exe,
+
+TortoiseProc.exe /command:..."
+How to best display in Terminal a MySQL SELECT returning too many fields?,"I'm using PuTTY to run:
+
+mysql> SELECT * FROM sometable;
+sometable has many fields and this results in many columns trying to be displayed in the terminal. The fields wrap onto the next line so it ..."
+Maven command to determine which settings.xml file Maven is using,How do I use maven command line to determine which settings.xml file Maven is picking up?
+"Is there a ""standard"" format for command line/shell help text?","If not, is there a de facto standard? Basically I'm writing a command line help text like so:
+usage: app_name [options] required_input required_input2
+  options:
+    -a, --argument     Does something
+ ..."
+Python not working in the command line of git bash,"Python will not run in git bash (Windows). When I type python in the command line, it takes me to a blank line without saying that it has entered python 2.7.10 like its does in Powershell. It doesn't ..."
+What's the best way to parse command line arguments? [duplicate],"What's the easiest, tersest, and most flexible method or library for parsing Python command line arguments?"
+How to use arguments from previous command? [closed],"I know that Esc + . gives you the last argument of the last command.
+
+But I'm interested in first argument of the last command.
+Is there a key binding to do so?
+
+On the same lines, is there a generic ..."
+Windows shell command to get the full path to the current directory?,"Is there a Windows command line command that I can use to get the full path to the current working directory?
+
+Also, how can I store this path inside a variable used in a batch file?"
+How can I use Unicode characters on the Windows command line?,"We have a project in Team Foundation Server (TFS) that has a non-English character (š) in it. When trying to script a few build-related things, we've stumbled upon a problem; we can't pass the š ..."
+Run function in script from command line (Node JS),I'm writing a web app in Node. If I've got some JS file db.js with a function init in it how could I call that function from the command line?
+How to export and import a .sql file from command line with options? [duplicate],"Not Duplicate! looking for some feature have phpmyadmin during export in command line
+
+I want to export and import a .sql file to and from a MySQL database from command line.
+
+Is there any command to ..."
+Execute combine multiple Linux commands in one line,"I am trying to merge multiple linux commands in one line to perform deployment operation.
+For example
+
+cd /my_folder
+rm *.jar
+svn co path to repo
+mvn compile package install"
+Why do you need ./ (dot-slash) before executable or script name to run it in bash?,"When running scripts in bash, I have to write ./ in the beginning:
+
+$ ./manage.py syncdb
+If I don't, I get an error message:
+
+$ manage.py syncdb
+-bash: manage.py: command not found
+What is the ..."
+Is there replacement for cat on Windows,"I need to join two binary files with a *.bat script on Windows.
+
+How can I achieve that?"
+How can I shuffle the lines of a text file on the Unix command line or in a shell script?,"I want to shuffle the lines of a text file randomly and create a new file. The file may have several thousands of lines.
+
+How can I do that with cat, awk, cut, etc?"
+How to recursively download a folder via FTP on Linux [closed],"I'm trying to ftp a folder using the command line ftp client, but so far I've only been able to use 'get' to get individual files."
+Linux command to list all available commands and aliases,"Is there a Linux command that will list all available commands and aliases for this terminal session?
+
+As if you typed 'a' and pressed tab, but for every letter of the alphabet.
+Or running 'alias' but ..."
+How to install JQ on Mac on the command line?,I need to know the most efficient way of installing JQ on Mac (El Capitan). The code is downloaded to my Mac but I would like to know how I can install and operate it via the command line.
+How to kill all processes matching a name?,"Say I want to kill every process containing the word amarok. I can print out the commands I want to execute. But how do I actually make the shell execute them. ie.
+
+ps aux | grep -ie amarok | awk '{..."
+Create an empty file on the commandline in windows (like the linux touch command),"On a windows machine I get this error
+
+'touch' is not recognized as an internal or external command, operable program or batch file.
+
+I was following these instructions which seem to be linux specific,..."
+Get most recent file in a directory on Linux,"Looking for a command that will return the single most recent file in a directory.
+Not seeing a limit parameter to ls..."
+What is a faster alternative to Python's http.server (or SimpleHTTPServer)?,"Python's http.server (or SimpleHTTPServer for Python 2) is a great way of serve the contents of the current directory from the command line:
+python -m http.server
+
+However, as far as web servers go, ..."
+Executing command line programs from within python [duplicate],"I'm building a web application that will is going to manipulate (pad, mix, merge etc) sound files and I've found that sox does exactly what I want. Sox is a linux command line program and I'm feeling ..."
+How to use sed to replace only the first occurrence in a file?,"I would like to update a large number of C++ source files with an extra include directive before any existing #includes. For this sort of task, I normally use a small bash script with sed to re-write ..."
+Find and replace with sed in directory and sub directories,"I run this command to find and replace all occurrences of 'apple' with 'orange' in all files in root of my site:
+
+find ./ -exec sed -i 's/apple/orange/g' {} \;
+But it doesn't go through sub ..."
+Why use argparse rather than optparse?,"I noticed that the Python 2.7 documentation includes yet another command-line parsing module.  In addition to getopt and optparse we now have argparse.
+
+Why has yet another command-line parsing module ..."
+How to diff and only show filenames of files that differ?,I'm looking to run a Linux command that will recursively compare two directories and output only the file names of what is different. This includes anything that is present in one directory and not ...
+How to list running screen sessions?,"I have a bunch of servers, on which I run experiments using screen. The procedure is the following :
+ssh to server XXX
+launch screen
+start experiments in a few tabs
+detach screen
+disconnect from the ..."
+How to echo with different colors in the Windows command line,I know that the color bf command sets the colors of the whole command line window but I wanted to to print one single line in a different color.
+Stop and Start a service via batch or cmd file?,How can I script a bat or cmd to stop and start a service reliably with error checking (or let me know that it wasn't successful for whatever reason)?
+Is there a better Windows Console Window? [closed],"I find working on the command line in Windows frustrating, primarily because the console window is wretched to use compared to terminal applications on linux and OS X such as ""rxvt"", ""xterm"", or ""..."
+How do I send a file as an email attachment using Linux command line?,I've created a script that runs every night on my Linux server that uses mysqldump to back up each of my MySQL databases to .sql files and packages them together as a compressed .tar file. The next ...
+Pass variables to Ruby script via command line,I've installed RubyInstaller on Windows and I'm running IMAP Sync but I need to use it to sync hundreds of accounts. If I could pass these variables to it via command line I could automate the whole ...
+How to check if a process is running via a batch script,"How can I check if an application is running from a batch (well cmd) file?
+
+I need to not launch another instance if a program is already running. (I can't change the app to make it single instance ..."
+Command to list all files in a folder as well as sub-folders in windows,"I tried searching for a command that could list all the file in a directory as well as subfolders using a command prompt command.
+I have read the help for ""dir"" command but coudn't find what I was ..."
+How do I include a pipe | in my linux find -exec command?,"This isn't working.  Can this be done in find?  Or do I need to xargs?
+find -name 'file_*' -follow -type f -exec zcat {} \| agrep -dEOE 'grep' \;"
+How can I pass variable to ansible playbook in the command line?,"How can one pass variable to ansible playbook in the command line?
+The following command didn't work:
+$ ansible-playbook -i '10.0.0.1,' yada-yada.yml --tags 'loaddata' django_fixtures=""..."
+What encoding/code page is cmd.exe using?,"When I open cmd.exe on Windows, what encoding is it using?
+How can I check which encoding it is currently using? 
+Does it depend on my regional setting or are there any environment
+variables to check?
+..."
+How to write a multiline command?,"How do we extend a command to the next line?
+Basically what's the Windows alternative for Linux's:
+ls -l \
+/usr/
+
+Here we use backslashes to extend the command onto the next lines.
+What's the ..."
+How can I read command line parameters from an R script?,"I've got a R script for which I'd like to be able to supply several command-line parameters (rather than hardcode parameter values in the code itself).  The script runs on Windows.
+
+I can't find info ..."
+What does cmd /C mean? [closed],"I can understand cmd but not cmd /c. I was trying to invoke a java program from the current for which I use Runtime.getRuntime().exec(""cmd /C java helloworld""); There arises my doubt."
+How to get Maven project version to the bash command line,"Previous I issued a question on how to change Maven project vesion from command line which lead me to a new issue.
+Previously I was able to get the version number since the version was stored as a ..."
+"Command Line Tool - Error - xcrun: error: unable to find utility ""xcodebuild"", not a developer tool or in PATH","I am getting this error while building the SwiftJSON framework to the Some Xcode project through Carthage Dependency Manager.
+  Sivaramaiahs-Mac-mini:GZipDemoApp vsoftMacmini5$ carthage update
+  --..."
+Using multiple delimiters in awk,"I have a file which contain following lines:
+
+/logs/tc0001/tomcat/tomcat7.1/conf/catalina.properties:app.env.server.name = demo.example.com
+/logs/tc0001/tomcat/tomcat7.2/conf/catalina.properties:app...."
+How can I disable the Maven Javadoc plugin from the command line?,"In pom.xml I have declaration like this
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <..."
+How to find out what group a given user has?,"In Unix/Linux, how do you find out what group a given user is in via command line?"
+find filenames NOT ending in specific extensions on Unix?,"Is there a simple way to recursively find all files in a directory hierarchy, that do not end in a list of extensions? E.g. all files that are not *.dll or *.exe
+
+UNIX/GNU find, powerful as it is, ..."
+Uninstall Node.JS using Linux command line?,How do you uninstall node.js using the cmd line in linux?
+Execute a command without keeping it in history [closed],"When doing software development, there is often need to include confidential information in command line commands. Typical example is setting credentials for deploying the project to a server as ..."
+"What does the ""-U"" option stand for in pip install -U","Despite a ton of Googling, I can't find any docs for pip's command line options/arguments. What does pip install -U mean? Does anyone have a link to a list of pip's options and arguments?"
+How to run .NET Core console application from the command line,"I have a .NET Core console application and have run dotnet publish. However, I can't figure out how to run the application from the command line. Any hints?"
+Find all files with name containing string [closed],I have been searching for a command that will return files from the current directory which contain a string in the filename. I have seen locate and find commands that can find files beginning with ...
+How to run mvim (MacVim) from Terminal?,"I have MacVim installed and I am trying to set it up as the editor for Git (version control),  but I can't run 'mvim' from the command line as it isn't recognised. How do I setup mvim so I can run it ..."
+Executing multi-line statements in the one-line command-line,"I'm using Python with -c to execute a one-liner loop, i.e.:
+python -c ""for r in range(10): print 'rob'""
+
+This works fine. However, if I import a module before the for loop, I get a syntax ..."
+how to change directory using Windows command line,"I'm using cmd.exe (C:\WINDOWS\System32\cmd.exe) and I have to change my current directory to ""D:\temp"" i.e. temp folder in the D drive.
+
+When I try to cd nothing happens.
+
+C:\> cd D:\temp
+
+C:\>
+..."
+Copy Paste in Bash on Ubuntu on Windows,"How to execute a copy paste operation from Windows 10 to the Bash on Ubuntu on Windows environment?
+
+I tried the following:
+ctrl + shift + v
+right click to paste
+Any suggestions?"
+How do I run a Java program from the command line on Windows?,"I'm trying to execute a Java program from the command line in Windows.
+Here is my code:
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;..."
+Can the Unix list command 'ls' output numerical chmod permissions?,"Is it possible when listing a directory to view numerical Unix permissions such as 644, rather than the symbolic output -rw-rw-r-- ?
+Thanks."
+Create database from command line in PostgreSQL,"I am trying to create a database from command line.
+My OS is centos and postgres version is 10.9.
+sudo -u postgres psql createdb test
+Password for user test:
+
+Why is it prompting me for the password?"
+How do I forward parameters to other command in bash script?,"Inside my bash script, I would like to parse zero, one or two parameters (the script can recognize them), then forward the remaining parameters to a command invoked in the script. How can I do that?"
+How do I parse command line arguments in Scala? [closed],"What is a good way of parsing command line arguments in Scala?
+Related:
+
+How do I parse command line arguments in Java?"
+How to merge 2 JSON objects from 2 files using jq?,"I'm using the jq tools (jq-json-processor) in shell script to parse json.
+I've got 2 json files and want to merge them into one unique file
+Here the content of files:
+file1
+{
+    ""value1"": ..."
+How can I use xargs to copy files that have spaces and quotes in their names?,"I'm trying to copy a bunch of files below a directory and a number of the files have spaces and single-quotes in their names.  When I try to string together find and grep with xargs, I get the ..."
+maven command line how to point to a specific settings.xml for a single command?,"Is it possible to point to a specific settings file in order to override the default settings.xml being used by maven for a single command?
+Example:
+
+mvn clean install -Dparam # -> pass specific ..."
+Multiple simultaneous downloads using Wget?,"I'm using wget to download website content, but wget downloads the files one by one.
+
+How can I make wget download using 4 simultaneous connections?"
+How to run .sh on Windows Command Prompt?,"How can I run .sh on Windows 7 Command Prompt? I always get this error when I try to run this line in it,
+
+app/build/build.sh
+error,
+
+'app' is not recognized...
+or,
+
+bash app/build/build.sh
+error,
+
+..."
+Windows recursive grep command-line,"I need to do a recursive grep in Windows, something like this in Unix/Linux:
+
+grep -i 'string' `find . -print`
+or the more-preferred method:
+
+find . -print | xargs grep -i 'string'
+I'm stuck with ..."
+Delete .DS_STORE files in current folder and all subfolders from command line on Mac [duplicate],"I understand I can use find . -name "".DS_Store"" to find all the .DS_Store files  in the current folder and all subfolders. But how could I delete them from command line simultaneously? I found it's ..."
+Shell command to find lines common in two files,"I'm sure I once found a shell command which could print the common lines from two or more files. What is its name?
+It was much simpler than diff."
+How to reset Jenkins security settings from the command line?,Is there a way to reset all (or just disable the security settings) from the command line without a user/password as I have managed to completely lock myself out of Jenkins?
+How to start MySQL server from command line on Mac OS Lion?,"I installed mySQL on my Mac. Beside starting the SQL server with mySQL.prefPane tool installed in System Preferences, I want to know the instructions to start from command-line.
+I do as follows:
+After
+..."
+How do you run a single query through mysql from the command line?,"I'm looking to be able to run a single query on a remote server in a scripted task.
+
+For example, intuitively, I would imagine it would go something like:
+
+mysql -uroot -p -hslavedb.mydomain.com ..."
+BAT file: Open new cmd window and execute a command in there,"I'm trying to open a new command window in a BAT file:
+
+start %windir%\system32\cmd.exe
+After it opens, I'd like to execute a BAT command in the new window:
+
+echo ""test in new window""
+How can I do ..."
+How to do a non-greedy match in grep?,"I want to grep the shortest match and the pattern should be something like:
+
+<car ... model=BMW ...>
+...
+...
+...
+</car>
+... means any character and the input is multiple lines."
+Visual studio code cmd error: Cannot be loaded because running scripts is disabled on this system,"Inside of visual studio code, I'm trying to execute a script.bat from the command line, but I'm getting the following error:
+  File C:\Theses_Repo\train-cnn\environment\Scripts\activate.ps1 cannot be ..."
+How to replace ${} placeholders in a text file?,"I want to pipe the output of a ""template"" file into MySQL, the file having variables like ${dbName} interspersed. What is the command line utility to replace these instances and dump the ..."
+Take a full page screenshot with Firefox on the command-line,"I'm running Firefox on a Xvfb in a VPS. What I want to do is to take a full page screenshot of the page.
+
+I can redirect Firefox to particular page using
+
+firefox http://google.com
+and take a ..."
+How to remove all MySQL tables from the command-line without DROP database permissions? [duplicate],"How do I drop all tables in Windows MySQL, using command prompt? The reason I want to do this is that our user has access to the database drops, but no access to re-creating the database itself, for ..."
+"Linux equivalent of the Mac OS X ""open"" command [closed]","I've found the ""open"" command in Mac OS X very handy in the command line. From ""man open"":
+  The open command opens a file (or a directory or URL), just as if you had
+      double-clicked the file's ..."
+How do you input command line arguments in IntelliJ IDEA?,I usually input command line arguments in Eclipse via run configuration. But I don't know how do achieve the same task in IntelliJ IDEA.
+How to do a simple file search in cmd,"I want to quickly search for a file given its name or part of its name, from the windows command line (not power shell). This is similar to opening explorer and using the search box at the top. 
+
+Note:..."
+"Git says ""Warning: Permanently added to the list of known hosts""","Every time I use git to interact with a remote, such as when pulling or pushing, I am shown the following message:
+  Warning: Permanently added '...' (RSA) to the list of known hosts.
+How can I ..."
+How do I use the lines of a file as arguments of a command?,"Say, I have a file foo.txt specifying N arguments
+
+arg1
+arg2
+...
+argN
+which I need to pass to the command my_command
+
+How do I use the lines of a file as arguments of a command?"
+How to execute shell commands in JavaScript,"I want to write a JavaScript function which will execute the system shell commands (ls for example) and return the value.
+How do I achieve this?"
+How can I show lines in common (reverse diff)?,"I have a series of text files for which I'd like to know the lines in common rather than the lines which are different between them. Command line Unix or Windows is fine.
+File foo:
+linux-vdso.so.1 =&..."
+How to request Administrator access inside a batch file,"I am trying to write a batch file for my users to run from their Vista machines with UAC.  The file is re-writing their hosts file, so it needs to be run with Administrator permissions.  I need to be ..."
+How to change Git log date formats,"I am trying to display the last commit within Git, but I need the date in a special format.
+
+I know that the log pretty format %ad respects the --date format, but the only --date format I can find is ""..."
+Making iTerm to translate 'meta-key' in the same way as in other OSes,"In bash shell with emacs key-binding, you can use key combination like M-f, M-b to move one word forward or backward on the shell prompt respectively. Usually, the meta key is mapped to Alt key on ..."
+How to trigger XDebug profiler for a command line PHP script?,"XDebug offers the configuration directive xdebug.profiler_enable_trigger that allows to activate profiling by passing the GET or POST parameter ""XDEBUG_PROFILE"" when calling a script via ..."
+How to create a file with a given size in Linux?,"For testing purposes I have to generate a file of a certain size (to test an upload limit).  
+
+What is a command to create a file of a certain size on Linux?"
+How can I find out if I have Xcode commandline tools installed?,"I need to use gdb.
+
+ps-MacBook-Air:AcoustoExport pi$ gdb
+-bash: gdb: command not found
+
+ps-MacBook-Air:AcoustoExport pi$ sudo find / -iname ""*gdb*""
+Password:
+/usr/local/share/gdb
+/usr/local/Cellar/isl/..."
+How to create a React app directly in the current folder,I know I've done it before but I can't seem to find the answer anywhere. I want to run create-react-app without creating a whole other folder within the folder I'm already in. I believe it is just an ...
+How to loop through files matching wildcard in batch file,"I have a set of base filenames, for each name 'f' there are exactly two files, 'f.in' and 'f.out'.  I want to write a batch file (in Windows XP) which goes through all the filenames, for each one it ..."
+Compiling/Executing a C# Source File in Command Prompt,How do you compile and execute a .cs file from a command-prompt window?
+How to call VS Code Editor from terminal / command line,"The question says it all.
+
+How can I open VS Code editor from
+windows cmd
+linux and mac terminal
+e.g. for notepad++ I write
+
+> start notepad++ test.txt
+
+By the way, the editor is awesome (cross-..."
+Why is my command prompt freezing on Windows 10?,I'm adding this question after spending an entire day wrestling with this incredibly frustrating feature of the Windows 10 command prompt which made me think there was something wrong with my console ...
+Unix command to prepend text to a file,"Is there a Unix command to prepend some string data to a text file?
+
+Something like:
+
+prepend ""to be prepended"" text.txt"
+Run class in Jar file,"If you have a jar file called myJar.jar located in /myfolder and you want to use the class called myClass from it, how do you go about doing it from the command line?
+I thought it would be to go into ..."
+How to find the mysql data directory from command line in windows,"In linux I could find the mysql installation directory with the command which mysql. But I could not find any in windows. I tried echo %path% and it resulted many paths along with path to mysql bin. 
+
+..."
+https connection using CURL from command line,"I am new to Curl and Cacerts world and facing a problem while connecting to a server.
+Basically, I need to test connectivity over https from one machine to another machine.
+I have a URL to which I ..."
+How do I install cygwin components from the command line?,Is there a tool in the Cygwin package similar to apt-get on Debian or yum on redhat that allows me to install components from the command line?
+How do I comment on the Windows command line?,"In Bash, # is used to comment the following. How do I make a comment on the Windows command line?"
+How can I access command line parameters in Rust?,"The Rust tutorial does not explain how to take parameters from the command line. fn main() is only shown with an empty parameter list in all examples.
+What is the correct way of accessing command line ..."
+"How to resolve ""gpg: command not found"" error during RVM installation?","I have a new mac pro (OS X 10.9.5) that I get to set up from scratch. I want to install RVM and the first thing it says to do is:
+
+Install mpapis public key (might need gpg2 and or sudo)
+gpg --..."
+How to create a database from shell command in MySQL?,I'm looking for something like createdb in PostgreSQL or any other solution that would allow me to create database with a help of a shell command. Any hints?
+Get Folder Size from Windows Command Line,"Is it possible in Windows to get a folder's size from the command line without using any 3rd party tool?
+
+I want the same result as you would get when right clicking the folder in the windows explorer ..."
+How to find directory of some command?,"I know that when you are on shell, the only commands that can be used are the ones that can be found on some directory set on PATH.
+Even I don't know how to see what dirs are on my PATH variable (and ..."
+How to force 'cp' to overwrite directory instead of creating another one inside?,"I'm trying to write a Bash script that will overwrite an existing directory. I have a directory foo/ and I am trying to overwrite bar/ with it. But when I do this:
+
+cp -Rf foo/ bar/
+a new bar/foo/ ..."
+Comments in command-line Zsh,"I switched from Bash to Zsh on Ubuntu and I'm quite happy about it. However, there is something I really miss and I did not find how to achieve the same thing.
+In Bash, whenever I was typing a long ..."
+"Windows Explorer ""Command Prompt Here"" [closed]","I frequently find myself with a folder open in Windows, wishing to have a command prompt open with the same working directory.
+
+I am aware of Power Toys ""Command Prompt"", but that only works as a ..."
+How can I execute PHP code from the command line?,"I would like to execute a single PHP statement like if(function_exists(""my_func"")) echo 'function exists'; directly with the command line without having to use a separate PHP file.
+How is it ..."
+How to pass argument to Makefile from command line?,"How to pass argument to Makefile from command line?
+I understand I can do
+$ make action VAR=""value""
+$ value
+
+with Makefile
+VAR = ""default""
+action:
+    @echo $(VAR)
+
+How do I get ..."
+"How to ssh to vagrant without actually running ""vagrant ssh""?","I would like to reproduce the way Vagrant logs in to my VM within a shell script using an ssh command, so I create an alias to my Vagrant instance.
+What is the command syntax to use the regular ssh ..."
+What's the opposite of head? I want all but the first N lines of a file,"Given a text file of unknown length, how can I read, for example all but the first 2 lines of the file? I know tail will give me the last N lines, but I don't know what N is ahead of time.
+
+So for a ..."
+How to create Windows EventLog source from command line?,I'm creating an ASP.NET application that will log some stuff to Windows EventLog. To do this an event source has to be created first. This requires administrative priviledges so I cannot do it in the ...
+"""No such file or directory"" but it exists","I simply want to run an executable from the command line, ./arm-mingw32ce-g++, but then I get the error message,
+
+bash: ./arm-mingw32ce-g++: No such file or directory
+
+I'm running Ubuntu Linux 10.10. ..."
+Command line: piping find results to rm,"I'm trying to work out a command which deletes sql files older than 15 days.
+
+The find part is working but not the rm.
+
+rm -f | find -L /usr/www2/bar/htdocs/foo/rsync/httpdocs/db_backups -type f  \( -..."
+Build Android Studio app via command line,"I want to build an Android Studio app (the Gradle build system), but I want to do this via the command line."
+Flutter command not found,"Apparently, none of the Flutter commands are working in the terminal of Android Studio which I believe I am trying to run it at the root of my project.
+Output:
+bash: flutter: command not found"
+Get selected subcommand with argparse,"When I use subcommands with python argparse, I can get the selected arguments.
+parser = argparse.ArgumentParser()
+parser.add_argument('-g', '--global')
+subparsers = parser.add_subparsers()   
+..."
+How do I 'svn add' all unversioned files to SVN?,"I'm looking for a good way to automatically 'svn add' all unversioned files in a working copy to my SVN repository.  
+
+I have a live server that can create a few files that should be under source ..."
+Proper usage of Java -D command-line parameters,"When passing a -D parameter in Java, what is the proper way of writing the command-line and then accessing it from code? 
+
+For example, I have tried writing something like this...
+
+if (System...."
+Finding the path of the program that will execute from the command line in Windows,Say I have a program X.EXE installed in folder c:\abcd\happy\ on the system. The folder is on the system path. Now suppose there is another program on the system that's also called X.EXE but is ...
+How to start up spring-boot application via command line?,I have a spring-boot application which I need to start up by going to the folder directory and start up my web application via command line. I have a class called Application.java and the code inside ...
+How do I get the find command to print out the file size with the file name?,"If I issue the find command as follows:
+find . -name *.ear
+
+It prints out:
+./dir1/dir2/earFile1.ear
+./dir1/dir2/earFile2.ear
+./dir1/dir3/earFile1.ear
+
+I want to 'print' the name and the size to the ..."
+How to change Firebase user login identity from command line (CLI)?,"I'm trying to login to Firebase using login credentials of, let's say, User-Alice.
+But when I go through the authorization procedure I get a message saying I'm logged in as User-Bob. This is not ..."
+Is there a way to ignore header lines in a UNIX sort?,"I have a fixed-width-field file which I'm trying to sort using the UNIX (Cygwin, in my case) sort utility.
+The problem is there is a two-line header at the top of the file which is being sorted to the ..."
+How can I search for a multiline pattern in a file?,"I needed to find all the files that contained a specific string pattern. The first solution that comes to mind is using find piped with xargs grep:
+find . -iname '*.py' | xargs grep -e 'YOUR_PATTERN'
+
+..."
+What is the canonical way to determine commandline vs. http execution of a PHP script?,"I have a PHP script that needs to determine if it's been executed via the command-line or via HTTP, primarily for output-formatting purposes. What's the canonical way of doing this? I had thought it ..."
+Show a popup/message box from a Windows batch file,Is there a way to display a message box from a batch file (similar to how xmessage can be used from bash-scripts in Linux)?
+an htop-like tool to display disk activity in linux [closed],I am looking for a Linux command-line tool that would report the disk IO activity. Something similar to htop would be really cool.  Has someone heard of something like that?
+Using 'diff' (or anything else) to get character-level diff between text files,"I'd like to use 'diff' to get a both line difference between and character difference.
+For example, consider:
+
+File 1
+
+abcde
+abc
+abcccd
+File 2
+
+abcde
+ab
+abccc
+Using diff -u I get:
+
+@@ -1,3 +1,3 @@
+ ..."
+How do I compile a Visual Studio project from the command-line?,"I'm scripting the checkout, build, distribution, test, and commit cycle for a large C++ solution that is using Monotone, CMake, Visual Studio Express 2008, and custom tests.  
+
+All of the other parts ..."
+How to merge images in command line? [closed],"I would like to try the CSS Sprite technique to load a few thumbnails as a single image. So I need to ""merge"" a few thumbnails in a single file offline in the server. 
+
+Suppose I have 10 thumbnails of ..."
+How to detect if CMD is running as Administrator/has elevated privileges?,"From inside a batch file, I would like to test whether I'm running with Administrator/elevated privileges.
+
+The username doesn't change when ""Run as Administrator"" is selected, so that doesn't work.
+
+..."
+Command line progress bar in Java,"I have a Java program running in command line mode.
+I would like to display a progress bar, showing the percentage of job done.
+The same kind of progress bar you would see using wget under unix.
+Is ..."
+"mkdir's ""-p"" option","So this doesn't seem like a terribly complicated question I have, but it's one I can't find the answer to.  I'm confused about what the -p option does in Unix.  I used it for a lab assignment while ..."
+How do I get the name of the active user via the command line in OS X?,How do I get the name of the active user via the command line in OS X?
+How to pass command line argument to gnuplot?,"I want to use gnuplot to draw figure from data file, say foo.data. Currently, I hardcoded the data file name in the command file, say foo.plt, and run command gnuplot foo.plg to plot data. However, I ..."
+Does svn have a `revert-all` command?,"If I want to throw away all of my changes, and return to the code that is on the repository, I do the following:
+
+$ rm -fr *
+$ svn up
+This is easy enough, but I'm wondering if there is a single ..."
+Angular - ng: command not found,I'm trying to learn Angular and my knowledge in terminal is beginner. After I installed Angular and then type ng new my-project. I get the response ng: command not found. I've seen other posts that ...
+Useless use of cat?,"This is probably in many FAQs - instead of using:
+
+cat file | command
+(which is called useless use of cat), correct way supposed to be:
+
+command < file
+In the 2nd, ""correct"" way - OS does not ..."
+Determine command line working directory when running node bin script,"I am creating a node command line interface. It is installed globally and uses a bin file to execute.
+
+I plan to have a command window open at the root directory of the files I am working on and then ..."
+Where is svn.exe in my machine?,"I have Tortoise svn installed on my desktop. I want to perform some tasks using commandline svn.exe? But I am not able to find svn.exe on my machine.
+
+Do we have to install something else to get the ..."
+"SVN: Is there a way to mark a file as ""do not commit""?","With TortoiseSVN, I can move a file into the ignore-on-commit changelist, so that when I commit a whole tree, changes to that file do not get committed.
+
+Is there a way to do something like that using ..."
+How to append the output to a file?,"How can I do something like command > file in a way that it appends to the file, instead of overwriting?"
+Run a JAR file from the command line and specify classpath,I've compiled a JAR file and specified the Main-Class in the manifest (I used the Eclipse Export function). My dependencies are all in a directory labeled lib. I can't seem to get a straight answer on ...
+What is your single most favorite command-line trick using Bash? [closed],"We all know how to use <ctrl>-R to reverse search through history, but did you know you can use <ctrl>-S to forward search if you set stty stop """"?  Also, have you ever tried running bind -..."
+How do you commit code as a different user?,I want to be able to do this for a script. I'm essentially re-creating the entire version history of some code in Git - it currently uses a different version control system. I need the script to be ...
+List of Java processes,"How can I list all Java processes in bash?
+I need an command line. I know there is command ps but I don't know what parameters I need to use."
+How to beautify JSON in Python?,"Can someone suggest how I can beautify JSON in Python or through the command line?
+
+The only online based JSON beautifier which could do it was: http://jsonviewer.stack.hu/.
+
+I need to use it from ..."
+Automatically capture output of last command into a variable using Bash?,"I'd like to be able to use the result of the last executed command in a subsequent command. For example,
+
+$ find . -name foo.txt
+./home/user/some/directory/foo.txt
+Now let's say I want to be able to ..."
+Linux command (like cat) to read a specified quantity of characters,"Is there a command like cat in linux which can return a specified quantity of characters from a file?
+
+e.g., I have a text file like:
+
+Hello world
+this is the second line
+this is the third line
+And I ..."
+Grep and Sed Equivalent for XML Command Line Processing,"When doing shell scripting, typically data will be in files of single line records like csv. It's really simple to handle this data with grep and sed. But I have to deal with XML often, so I'd really ..."
+How to check if SMTP is working from commandline (Linux) [closed],"I have a SMTP-server, for the purpose of this question lets call it: smtp.mydomain.example.
+How do I check if the SMTP-server is in working? Can I send emails manually from Linux commandline?"
+Where are sudo incidents reported? [closed],"Attempting something devious on my machine leads to
+
+ryan@debian:~$ sudo EAT_ALL_THE_COOKIES_BEFORE_DINNER
+[sudo] password for ryan: 
+ryan is not in the sudoers file.  This incident will be reported.
+..."
+Oh My Zsh - Disable 'Would you like to check for updates' prompt,"Every time I open up terminal on a Mac I get the prompt 
+  Would you like to check for updates?
+I find it quite annoying. Anyway to stop it from doing so?"
+How to zip a file using cmd line?,"I want to zip a directory using the batch file command (Windows XP batch file).
+For example, if I want to unzip a file means I can use the jar -xf file.zip(java) bat file command.
+Like that I want a ..."
+"What's the magic of ""-"" (a dash) in command-line parameters?","Examples:
+Create an ISO image and burn it directly to a CD.
+
+mkisofs -V Photos -r /home/vivek/photos | cdrecord -v dev=/dev/dvdrw -  
+Change to the previous directory.
+
+cd -
+Listen on port 12345 and ..."
+Docker command not found when running on Mac,"I'm trying to run the below code as instructed in the docker-graphite-statsd:
+docker run -d\
+ --name graphite\
+ --restart=always\
+ -p 80:80\
+ -p 2003-2004:2003-2004\
+ -p 2023-2024:2023-2024\
+ -p 8125:..."
+How to start jenkins on different port rather than 8080 using command prompt in Windows?,"I have jenkins.war and I started it from command prompt in Windows as:
+
+java -jar jenkins.war
+It was started well and easily browsed as http://localhost:8080
+
+I want to start on 9090 port. How can I ..."
+"Why do JVM arguments start with ""-D""?","Why do we need to prefix JVM arguments with -D e.g. when running a jar from the command line? E.g.
+
+java -jar -DmyProp=""Hello World"" myProgram.jar
+is used to run myProgram.jar with the system ..."
+Express command not found,"For some reason after installing Express globally on my machine with npm install -g express if I cd into a directory and try to run express I get the following error: 
+
+express: command not found. 
+..."
+Pane Title in Tmux,"On my local machine I've got 3 node.js instances running simultaneously. Each has it's own pane in a tmux window called ""servers"". The problem is that it's not that easy to figure out which ..."
+How can I pass command-line arguments to a Perl program?,"I'm working on a Perl script. How can I pass command line parameters to it?
+
+Example:
+
+script.pl ""string1"" ""string2"""
+Executing JavaScript without a browser?,"I am looking into Javascript programming without a browser. I want to run scripts from the Linux or Mac OS X command line, much like we run any other scripting language (ruby, php, perl, python...)
+
+$ ..."
+recursively add file extension to all files,I have a few directories and sub-directories containing files with no file extension. I want to add .jpg to all the files contained within these directories. I've seen bash scripts for changing the ...
+How do I restart nginx only after the configuration test was successful on Ubuntu?,"When I restart the nginx service on a command line on an Ubuntu server, the service crashes when a nginx configuration file has errors. On a multi-site server this puts down all the sites, even the ..."
+Running Command Line in Java [duplicate],"Is there a way to run this command line within a Java application?
+
+java -jar map.jar time.rel test.txt debug
+I can run it with command but I couldn't do it within Java."
+linux command line: du --- how to make it show only total for each directories,"I am doing it by (with coreutils_8.5-1ubuntu6_amd64):
+
+du -sch `find ./ -maxdepth 1 -type d`
+I am looking for a simple way (shorter cmd) to find size of subdirectories. Thank you."
+Create a shortcut (.lnk file) using PowerShell,"I want to create a shortcut with PowerShell for this executable: 
+
+C:\Program Files (x86)\ColorPix\ColorPix.exe
+How can this be done?"
+What's the best way to use R scripts on the command line (terminal)?,"It's very convenient to have R scripts for doing simple plots from the command line.  However, running R from bash scripts is not convenient at all.  The ideal might be something like
+
+#!/path/to/R
+......"
+Maximum Length of Command Line String,"In Windows, what is the maximum length of a command line string? Meaning if I specify a program which takes arguments on the command line such as abc.exe -name=abc 
+
+A simple console application I ..."
+Multiplication on command line terminal,"I'm using a serial terminal to provide input into our lab experiment. I found that using 
+
+$ echo ""5X5""
+just returns a string of ""5X5"". Is there a command to execute a multiplication operation?"
+"Postgres ""psql not recognized as an internal or external command""","For Postgres, I keep getting this error multiple times even though I have already set the location of the bin folder to the path variable in Windows 8. Is there something else I'm missing?"
+How to temporarily switch profiles for AWS CLI?,"Updated answer (7/10/2021): For AWS CLI v1, do this:
+export AWS_DEFAULT_PROFILE=user2
+
+For AWS CLI v2, the following will work:
+export AWS_PROFILE=user2
+
+The full question is below for context:
+
+(1.) ..."
+"Perl flags -pe, -pi, -p, -w, -d, -i, -t?","I have seen lots of ways of running Perl code or scripts, with different flags. However, when I try to google for what each flag means, I mainly get results to generic Perl sites and no specific ..."
+Xcode project scheme is not currently configured for the test action,I am trying to run an Xcode unit test for my iOS application. I am willing to do it on an iPad connected via USB to a Mac. I am trying to run the test from the command line in order to trigger it from ...
+Execute PowerShell Script from C# with Commandline Arguments,"I need to execute a PowerShell script from within C#. The script needs commandline arguments.
+
+This is what I have done so far:
+
+RunspaceConfiguration runspaceConfiguration = RunspaceConfiguration...."
+String replacement in batch file,"We can replace strings in a batch file using the following command
+
+set str=""jump over the chair""
+set str=%str:chair=table%
+These lines work fine and change the string ""jump over the chair"" to ""jump ..."
+How do I pass command-line arguments to a WinForms application?,"I have two different WinForms applications, AppA & AppB. Both are running .NET 2.0.
+
+In AppA I want to open AppB, but I need to pass command-line arguments to it. How do I consume the arguments ..."
+How to run a python script from IDLE interactive shell?,"How do I run a python script from within the IDLE interactive shell? 
+
+The following throws an error:
+
+>>> python helloworld.py
+SyntaxError: invalid syntax"
+Windows equivalent of the 'tail' command [duplicate],"Is there a way to simulate the *nix tail command on the Windows command line? I have a file and I want a way to snip off the first n lines of text. For example:
+
+D:\>type file.txt
+line one
+line two
+..."
+how to find host name from IP with out login to the host,i need to find the host name of a UNIX host whose IP is known with out login to that UNIX host
+Matlab: Running an m-file from command-line,"Suppose that;
+
+I have an m-file at location:
+C:\M1\M2\M3\mfile.m
+
+And exe file of the matlab is at this location:
+C:\E1\E2\E3\matlab.exe
+
+I want to run this m-file with Matlab, from command-line, for ..."
+How do I run a batch script from within a batch script?,"How do I call another batch script from within a batch script?
+
+I want it to execute in an if statement."
+"Concatenate text files with Windows command line, dropping leading lines","I need to concatenate some relatively large text files, and would prefer to do this via the command line. Unfortunately I only have Windows, and cannot install new software.
+
+type file1.txt file2.txt &..."
+find -exec cmd {} + vs | xargs,"Which one is more efficient over a very large set of files and should be used?
+
+find . -exec cmd {} +
+or
+
+find . | xargs cmd
+(Assume that there are no funny characters in the filenames)"
+Getting the count of unique values in a column in bash,I have tab delimited files with several columns. I want to count the frequency of occurrence of the different values in a column for all the files in a folder and sort them in decreasing order of ...
+Adding command line options to CMake,"I'm building a large library using CMake, and I would like users to be able to selectively enable/disable certain parts of my build process.
+
+How can I add command-line options to my CMake build, e.g. ..."
+Build Eclipse Java Project from Command Line,"Is there a way to compile an Eclipse-based Java project from the command line? 
+
+I'm trying to automate my build (using FinalBuilder not ant), and I'm neither a Java nor Eclipse expert. I can probably ..."
+Create a new cmd.exe window from within another cmd.exe prompt,I am in the process of setting up CruiseControl.NET. The problem I am having is that I am running CC as a console application and when my build completes successfully and executes (using exec) it ...
+The way to check a HDFS directory's size?,I know du -sh in common Linux filesystems. But how to do that with HDFS?
+Display two files side by side,"How can 2 unsorted text files of different lengths be display side by side (in columns) in a shell 
+
+Given one.txt and two.txt:
+
+$ cat one.txt
+apple
+pear
+longer line than the last two
+last line
+
+$ cat ..."
+How to suppress specific MSBuild warning,"Is there any way to disable specific MSBuild warning (e.g. MSB3253) when running MSBuild from command line? My build script calls msbuild.exe much the following way:
+
+msbuild.exe MySolution.sln /t:..."
+git update-index --assume-unchanged on directory,"git 1.7.12
+I want to mark all files below a given directory as assume-unchanged.
+
+git update-index --assume-unchanged dir/ gives ""Ignoring path.""
+
+git update-index --assume-unchanged dir/* ..."
+"How to make a python, command-line program autocomplete arbitrary things NOT interpreter","I am aware of how to setup autocompletion of python objects in the python interpreter (on unix).  
+Google shows many hits for explanations on how to do this.
+Unfortunately, there are so many ..."
+Running CMD command in PowerShell,"I am having a bunch of issues with getting a PowerShell command to run. All it is doing is running a command that would be run in a CMD prompt window.
+
+Here is the command:
+
+""C:\Program Files (x86)\..."
+How to display modified date time with 'find' command?,"With a find command, I can display directories names with multiple levels. The following command display all directories under /var path with a depth of 2:
+
+find /var -maxdepth 2 -type d;
+The result ..."
+Capture stdout and stderr into different variables,"Is it possible to store or capture stdout and stderr in different variables, without using a temp file?  Right now I do this to get stdout in out and stderr in err when running some_command, but I'd
+..."
+Run C++ in command prompt - Windows,"I know that everyone uses an IDE nowadays, but I just find it simpler to write my code in notepad++, compile it using a command prompt command, and run it from there too. At least that works for Java ..."
+Start/Stop and Restart Jenkins service on Windows,"I have downloaded ""jenkins-1.501.zip"" from http://jenkins-ci.org/content/thank-you-downloading-windows-installer . 
+
+I have extracted zip file and installed Jenkins on Windows 7 successfully. Jenkins ..."
+Clean way to launch the web browser from shell script?,"In a bash script, I need to launch the user web browser. There seems to be many ways of doing this:
+$BROWSER
+xdg-open
+gnome-open on GNOME
+www-browser
+x-www-browser
+...
+Is there a more-standard-than-..."
+git branch ~(END) on terminal?,"To note, I'm on Oh-My-Zsh and git 2.17. Whenever I type in git branch, instead of showing me the branches of my git, it shows something like this:
+
+~
+~
+~
+~
+~
+(END)
+I can quit this by pressing 'q' on ..."
+how do I check in bash whether a file was created more than x time ago?,"I want to check in linux bash  whether a file was created more than x time ago.
+
+let's say the file is called text.txt and the time is 2 hours.
+
+ if [ what? ]
+ then
+     echo ""old enough""
+ fi"
+Difference between $? and $LastExitCode in PowerShell,"In PowerShell, what is the difference between $? and $LastExitCode?
+I read about automatic variables, and it said:
+
+$?  Contains the execution status of the last operation. It contains TRUE if the ..."
+How to copy to system clipboard from tmux output after mouse selection?,"Now for copy to system clipboard I have to select via mouse text in tmux window with Shift key. And then I have to run this command:
+
+tmux save-buffer - | reattach-to-user-namespace pbcopy
+Is any ..."
+jq Conditional output,"I'm using jq to play with json. I was wondering how to conditionally print something in that.
+
+Say I am interested in a field call geo. I used the following command and find out there is only one ..."
+How to pass command-line arguments to a PowerShell ps1 file,"For years, I have used the cmd/DOS/Windows shell and passed command-line arguments to batch files. For example, I have a file, zuzu.bat and in it, I access %1, %2, etc. Now, I want to do the same when ..."
+git commit error: pathspec 'commit' did not match any file(s) known to git,"I am trying to upload a Ruby app to Heroku. I start with git init and then I type git add . and then I use git commit -m initial commit. 
+
+Whenever I use git commit -m, I receive an error message ..."
+Track the time a command takes in UNIX/LINUX?,"In UNIX/LINUX, is there an easy way to track the time a command takes?"
+fatal: This operation must be run in a work tree [duplicate],"I get this error when I try to change branch.
+
+Probably I will give some information of the commands at 
+
+/path/to/git/repo/.
+upon command:
+
+git branch
+I get following output
+
+* V1.5
+  V2.0
+  master
+..."
+"How to empty (""truncate"") a file on linux that already exists and is protected in someway?",I have a file called error.log on my server that I need to frequently truncate. I have rw permissions for the file. Opening the file in vi > deleting all content > saving works (obviously). But when I ...
+Run single test from a JUnit class using command-line,"I am trying to find an approach that will allow me to run a single test from a JUnit class using only command-line and java.
+
+I can run the whole set of tests from the class using the following:
+
+java ..."
+Get DOS path instead of Windows path,"In a Windows CMD.exe command line, how can I get the full DOS name/short name (a.k.a. 8.3 format) of the directory I am in?
+For example, if I am in the directory C:\Program Files\Java\jdk1.6.0_22, I ..."
+Is it possible to run python SimpleHTTPServer on localhost only?,"I have a vpn connection and when I'm running python -m SimpleHTTPServer, it serves on 0.0.0.0:8000, which means it can be accessed via localhost and via my real ip.
+I don't want robots to scan me and ..."
+Execute ssh with password authentication via windows command prompt,"I need to execute ssh from windows command line by providing password in a non interactive manner. I could implement the key based authentication and able to execute the ssh commands just like 
+
+ssh &..."
+Launch Pycharm from command line (terminal),"I want to try out PyCharm for sage mathematics development.  Normally I run eclipse to do sage development, but now I want to try it with PyCharm.
+
+To launch eclipse with sage environment variables, ..."
+How can I convert an image to grayscale via the command line? [closed],"How can I use sips, imagemagic, or another tool to convert an image to black and white (grayscale) via the command line?"
+Number of processors/cores in command line,"I am running the following command to get the number of processors/cores in Linux:
+
+cat /proc/cpuinfo | grep processor | wc -l
+It works but it does not look elegant. How would you suggest improve it ?..."
+Run a Command Prompt command from Desktop Shortcut,"Is it possible to create a desktop shortcut that, when pressed, will open command prompt and run a pre-defined command?"
+Catching Ctrl+C in Java,Is it possible to catch the Ctrl+C signal in a java command-line application? I'd like to clean up some resources before terminating the program.
+How to override the `project.build.finalName` Maven property from the command line?,"I have the following plain pom running by Maven 3.0.4.
+
+<?xml version=""1.0"" encoding=""UTF-8""?>
+<project xmlns=""http://maven.apache.org/POM/4.0.0""
+         xmlns:xsi=""http://www.w3.org/2001/..."
+Argument passing strategy - environment variables vs. command line [closed],"Most of the applications we developers write need to be externally parametrized at startup. We pass file paths, pipe names, TCP/IP addresses etc. So far I've been using command line to pass these to ..."
+Include additional files in .bashrc,I have some stuff I want to perform in .bashrc which I would prefer to exist in another file on the system. How can I include this file into .bashrc?
+"How do I execute any command editing its file (argument) ""in place"" using bash?","I have a file temp.txt, that I want to sort with the sort command in bash.
+
+I want the sorted results to replace the original file.
+
+This doesn't work for example (I get an empty file):
+
+sortx temp...."
+How to give arguments to kill via pipe [duplicate],"I need to search for a certain process and kill that process. I wrote a command like this:
+
+ps -e | grep dmn | awk '{print $1}' | kill
+Where the process name is dmn. But it is not working. How can I ..."
+Getting an error cp: cannot stat when trying to copy files from one folder to another [closed],"I have this directory called ""mock"", which contains 3 directories. I am trying to copy all the items from ""mock"" directory into the ""projweek"" directory using the ..."
